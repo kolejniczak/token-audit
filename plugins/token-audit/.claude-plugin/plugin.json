@@ -1,0 +1,8 @@
+{
+  "name": "token-audit",
+  "version": "1.0.0",
+  "description": "Audits the token spend of past Claude Code sessions and recommends the levers that cut cost in future sessions.",
+  "author": {
+    "name": "Krzysztof Olejniczak"
+  }
+}

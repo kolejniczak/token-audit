@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "token-audit",
+  "description": "Token-spend audit for Claude Code sessions.",
+  "owner": {
+    "name": "Krzysztof Olejniczak"
+  },
+  "plugins": [
+    {
+      "name": "token-audit",
+      "source": "./plugins/token-audit",
+      "description": "Audits the token spend of past Claude Code sessions and recommends the levers that cut cost in future sessions.",
+      "category": "productivity"
+    }
+  ]
+}
